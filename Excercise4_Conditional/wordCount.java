@@ -17,10 +17,8 @@ public class wordCount {
     }
 
     public static void count(String s){
-        s = s.replaceAll("^\\s+", "");
-        
-		String[] arr = s.split("\\s+");
-        
+        s = s.replaceAll("^\\s+", "");        
+		String[] arr = s.split("\\s+");        
 		System.out.println(Arrays.toString(arr));
         System.out.println("Number of words: " + arr.length);
         System.out.println("");
